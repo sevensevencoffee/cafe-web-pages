@@ -1,5 +1,4 @@
 
-
 body {
     background-color: #38533C;
     text-align: center;
@@ -11,16 +10,24 @@ header {
     background-color: #E4D1A7;
 }
 
+.logo {
+    height: auto;
+    max-width: 200px;
+    margin-left: 10px;
+}
+
 nav {
+    height: 60px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav-btn {
     font-family: 'Inika', serif;
     background: none;
     border: none;
-    font-size: 25px;
+    font-size: 15px;
     color: #38533C;
     font-weight:bolder;
 }
@@ -47,7 +54,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2% 2% 2% 2%;
+    padding: 2% 0% 2% 2%;
 }
 
 .hero-image {
@@ -55,8 +62,9 @@ nav {
 }
 
 .info {
-    padding-left: 10%;
-    padding-right: 10%;
+    border-top: 2px dotted #38533C;
+    border-bottom: 2px dotted #38533C;
+    margin: 3% 10% 2% 10%;
     display: flex;
     justify-content: center;
     gap: 8%;
@@ -69,28 +77,26 @@ nav {
 .about-sec {
     display: flex;
     padding-right: 30px;
+    align-items: flex-start;
+    margin-top: 0;
 }
 
 .about-header {
     font-size: 30px;
     width: 20vw;
-    margin-left: 10%;
+    margin-left: 8%;
+    color: #38533C; 
+    letter-spacing: 0.2em; 
+    text-transform: uppercase; 
+    margin-top: 19px;
 }
 
 .about-main-h {
-    font-size: 5vw; /* Larger responsive font size */
-    text-align: center; /* Center aligned text */
-    color: #38533C; /* Maintaining consistent color */
-    margin: 1vh 0; /* Minimal margin for tight layout */
-    letter-spacing: 0.1em; /* More spaced out than the other texts */
-}
-
-.about-header {
-    font-size: 3vw; /* Responsive font size */
-    color: #38533C; /* Specific green color */
-    letter-spacing: 0.2em; /* Spaced out letters */
-    text-transform: uppercase; /* Uppercase letters for stylistic choice */
-    margin-bottom: 2vh; /* Space below the header */
+    font-size: 5vw; 
+    text-align: center; 
+    color: #38533C; 
+    margin: 1vh 0; 
+    letter-spacing: 0.1em;
 }
 
 .about-content {
@@ -98,7 +104,6 @@ nav {
     text-align: left; /* Left aligned text */
     line-height: 1.6; /* Increased line height for readability */
     font-size: 1.2em; /* Slightly larger font size */
-    padding: 2vh 0; /* Padding around the content */
     color: #333; /* Dark gray color for text */
 }
 
@@ -124,6 +129,7 @@ nav {
     letter-spacing: 0.1em;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-bottom: 30px;
 }
 
 .button-reservation:hover {

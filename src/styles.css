@@ -1,0 +1,143 @@
+
+
+body {
+    background-color: #38533C;
+    text-align: center;
+    margin: auto;
+}
+
+header {
+    padding: 1% 0% 1% 1%;
+    background-color: #E4D1A7;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-btn {
+    font-family: 'Inika', serif;
+    background: none;
+    border: none;
+    font-size: 25px;
+    color: #38533C;
+    font-weight:bolder;
+}
+
+.nav-btn:hover {
+    color: #182019;
+}
+
+.btn-container {
+    width:40vw;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+}
+
+#content {
+    background-color: #FDF0D3;
+    font-family: 'Inika', serif;
+} 
+
+.hero {
+    height: 30%;
+    padding-left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 2% 2% 2%;
+}
+
+.hero-image {
+    width: 65%; 
+}
+
+.info {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+}
+
+.info>* {
+    text-align: center;
+}
+
+.about-sec {
+    display: flex;
+    padding-right: 30px;
+}
+
+.about-header {
+    font-size: 30px;
+    width: 20vw;
+    margin-left: 10%;
+}
+
+.about-main-h {
+    font-size: 5vw; /* Larger responsive font size */
+    text-align: center; /* Center aligned text */
+    color: #38533C; /* Maintaining consistent color */
+    margin: 1vh 0; /* Minimal margin for tight layout */
+    letter-spacing: 0.1em; /* More spaced out than the other texts */
+}
+
+.about-header {
+    font-size: 3vw; /* Responsive font size */
+    color: #38533C; /* Specific green color */
+    letter-spacing: 0.2em; /* Spaced out letters */
+    text-transform: uppercase; /* Uppercase letters for stylistic choice */
+    margin-bottom: 2vh; /* Space below the header */
+}
+
+.about-content {
+    width: 80vw; /* Responsive width */
+    text-align: left; /* Left aligned text */
+    line-height: 1.6; /* Increased line height for readability */
+    font-size: 1.2em; /* Slightly larger font size */
+    padding: 2vh 0; /* Padding around the content */
+    color: #333; /* Dark gray color for text */
+}
+
+.cafe-menu-container {
+    background-color: #FDF0D3;
+}
+
+.cafe-menu-img {
+    margin-top: 5%;
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+.button-reservation {
+    border-radius: 10px;
+    font-family: 'Inika', serif;
+    font-size: 25px;
+    background-color: #a0522d; /* Darker shade for the button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-reservation:hover {
+    background-color: #8b4513; /* Slightly darker on hover */
+}
+
+.wine-menu-container {
+    background-color: #FDF0D3;
+}
+
+.wine-menu-img {
+    margin-top: 5%;
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+
